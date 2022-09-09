@@ -1,0 +1,21 @@
+{
+  "name": "zguba-server",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "mongodb": "^3.5.2",
+    "mongoose": "^5.9.20",
+    "randomstring": "^1.1.5",
+    "socket.io": "^2.2.0"
+  }
+}
